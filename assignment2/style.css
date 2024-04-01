@@ -1,0 +1,51 @@
+
+#class {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+}
+
+#heading {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  width: 70%;
+  margin: auto;
+}
+
+article 
+       {
+        column-count: 3;
+       }
+
+img,
+article > h2:first-child,
+article > p:first-child {
+  column-span: all;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+h1,strong {
+  color:orange;
+}
+
+
+#head{
+    font-size: 40px;
+  font-weight: bold;
+}
+#para{
+    width: 500px;
+}
+
+h2 {
+   
+  font-size: 1rem;
+}
